@@ -21,7 +21,7 @@ namespace SpotifyDesktop
         private string _title;
         private string _appFolder;
         private string _defaultCover;
-        private const string _scrobblerApiKey = "f3a26c7c8b4c4306bc382557d5c04ad5";
+        private const string _scrobblerApiKey = "3b181a04282b16432aca393c142d6f8c";
 
         /// <summary>
         /// Creates the player form and starts the task that monitors Spotify for
