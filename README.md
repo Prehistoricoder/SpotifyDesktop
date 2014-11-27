@@ -16,7 +16,7 @@ To use the application, just run it.  It will look for a running Spotify instanc
 ## Requirements
 
 * You need to have the Spotify desktop application installed, of course.  And a Spotify account (I think?  I don't think the client can be used to play local collections, but I could be wrong)
-* .NET Framework 4.5.  (link here:  http://www.microsoft.com/en-us/download/details.aspx?id=42643)
+* .NET Framework 4.5.1 or later  (link here:  http://www.microsoft.com/en-us/download/details.aspx?id=42643)
 * This application was developed for .NET 4.5 using Visual Studio 2013.
 
 ## Thanks

@@ -13,6 +13,7 @@ using System.Web;
 using System.Windows.Forms;
 using System.Xml.Linq;
 using System.Xml.XPath;
+using System.Runtime;
 
 namespace SpotifyDesktop
 {
@@ -154,6 +155,10 @@ namespace SpotifyDesktop
                         }
                     }
                 }
+
+                // Perform a quick GC and compact the large-object heap
+                GCSettings.LargeObjectHeapCompactionMode = GCLargeObjectHeapCompactionMode.CompactOnce;
+                GC.Collect();
             }
         }
         private delegate void SetLabelDelegate(string s);
